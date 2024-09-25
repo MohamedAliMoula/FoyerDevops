@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class SpringDocConfig {
 //comment created for jenkins test purposes
+//second comment created for jenkins test purposes
     @Bean
     public OpenAPI springShopOpenAPI() {
         return new OpenAPI()
