@@ -106,7 +106,6 @@ class EtudiantServiceTest {
     void testDeleteEtudiant() {
 
         doNothing().when(etudiantRepository).delete(etudiant);
-
         etudiantService.delete(etudiant);
 
         verify(etudiantRepository, times(1)).delete(etudiant);

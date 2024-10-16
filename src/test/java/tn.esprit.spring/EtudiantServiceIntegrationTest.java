@@ -30,13 +30,10 @@ public class EtudiantServiceIntegrationTest {
                 .dateNaissance(LocalDate.of(2000, 1, 4))
                 .build();
         etudiantRepository.save(etudiant);
-
-
         List<Etudiant> etudiants = etudiantRepository.findAll();
 
         assertEquals(1, etudiants.size());
     }
-
     @AfterEach
     public void cleanUp() {
         etudiantRepository.deleteAll();
