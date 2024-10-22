@@ -5,10 +5,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import tn.esprit.spring.DAO.Entities.Bloc;
-import tn.esprit.spring.DAO.Entities.Etudiant;
-import tn.esprit.spring.DAO.Repositories.BlocRepository;
-import tn.esprit.spring.DAO.Repositories.EtudiantRepository;
+import tn.esprit.spring.dao.entities.Etudiant;
+import tn.esprit.spring.dao.repositories.EtudiantRepository;
 
 import java.time.LocalDate;
 import java.util.List;

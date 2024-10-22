@@ -27,9 +27,10 @@ public class SpringDocConfig {
     }
 
     public Contact contactAPI() {
-        Contact contact = new Contact().name("Sirine NAIFAR")
-                .email("sirine.naifer@esprit.tn")
-                .url("https://www.linkedin.com/in/sirinenaifar/");
+        Contact contact = new Contact();
+        contact.name("Sirine NAIFAR");
+        contact.email("sirine.naifer@esprit.tn");
+        contact.url("https://www.linkedin.com/in/sirinenaifar/");
         return contact;
     }
 

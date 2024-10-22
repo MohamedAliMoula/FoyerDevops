@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import tn.esprit.spring.DAO.Entities.Etudiant;
-import tn.esprit.spring.DAO.Repositories.EtudiantRepository;
-import tn.esprit.spring.Services.Etudiant.EtudiantService;
+import tn.esprit.spring.dao.entities.Etudiant;
+import tn.esprit.spring.dao.repositories.EtudiantRepository;
+import tn.esprit.spring.services.etudiant.EtudiantService;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
