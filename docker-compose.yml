@@ -14,7 +14,10 @@ services:
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
     depends_on:
       - db
-
+  frontend:
+    image: 223jmt2830/foyer-frontend:latest
+    ports:
+      - "4200:80"
   db:
     image: mysql:8.0
     restart: always
