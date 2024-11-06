@@ -10,6 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("etudiant")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class EtudiantRestController {
     IEtudiantService service;
 
